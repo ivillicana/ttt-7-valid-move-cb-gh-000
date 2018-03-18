@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?
+def valid_move?(array, index)
   if position_taken? == true
     false
   elsif array[index].between?(0, 8)
